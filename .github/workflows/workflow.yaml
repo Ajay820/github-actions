@@ -18,4 +18,12 @@ jobs:
       - name: check
         run: |
           echo "check"
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: test
+        run: |
+          echo "running test"
+
 
