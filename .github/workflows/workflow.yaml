@@ -30,6 +30,6 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - name: shell script
-        run: ./hello.sh
+        run: sh ./hello.sh
 
 
